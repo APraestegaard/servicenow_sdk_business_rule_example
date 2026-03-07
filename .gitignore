@@ -1,0 +1,9 @@
+# ServiceNow SDK patterns
+node_modules/
+dist/
+out/
+build/
+.now-sdk/
+*.log
+.env
+.DS_Store
