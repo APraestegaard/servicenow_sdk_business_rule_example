@@ -9,7 +9,7 @@ BusinessRule({
     table: 'incident',
     when: 'before',
     script: businessRuleProcess,
-    //action: ['insert', 'update'],
+    action: ['update'],
     active: true,
     order: 100
 })
