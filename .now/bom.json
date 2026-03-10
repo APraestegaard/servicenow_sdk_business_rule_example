@@ -1,0 +1,41 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:b496a188-48f4-4493-8cac-14bf87b9f84f",
+  "metadata": {
+    "timestamp": "2026-03-09T13:15:07.024Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.3.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "servicenow_sdk_business_rule_example",
+      "version": "0.0.1",
+      "bom-ref": "pkg:servicenow/servicenow_sdk_business_rule_example@0.0.1?sys_scope_id=4216ded8730a44f2b7849b83554f60a2",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/servicenow_sdk_business_rule_example@0.0.1?sys_scope_id=4216ded8730a44f2b7849b83554f60a2"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/servicenow_sdk_business_rule_example@0.0.1?sys_scope_id=4216ded8730a44f2b7849b83554f60a2"
+    }
+  ]
+}
