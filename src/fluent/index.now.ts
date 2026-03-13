@@ -7,12 +7,12 @@ BusinessRule({
     name: 'APR Log Priority',
     description: 'Logs the priority of the current task.',
     table: 'incident',
-    filter_condition: 'priorityVALCHANGES^ORassigned_toVALCHANGES^EQ',
+    filterCondition: 'priorityVALCHANGES^ORassigned_toVALCHANGES^ORcommentsVALCHANGES^EQ',
     when: 'before',
     script: businessRuleProcess,
-    add_message: true,
-    message: 'The priority or assigned to of this incident has changed..',
+    addMessage: true,
+    message: '<p>The priority or assigned to of this incident has changed..</p>',
     action: ['update'],
     active: true,
-    order: 100
+    order: 100,
 })
