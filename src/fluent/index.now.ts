@@ -11,7 +11,7 @@ BusinessRule({
     when: 'before',
     script: businessRuleProcess,
     addMessage: true,
-    message: '<p>The priority or assigned to of this incident has changed..</p>',
+    message: '<p>The priority or assigned to of this incident has changed, or comments have been added.</p>',
     action: ['update'],
     active: true,
     order: 100,
